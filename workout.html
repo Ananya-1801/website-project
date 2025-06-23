@@ -1,0 +1,108 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap">
+  <title>Discover</title>
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+    }
+
+    /* Blurred background image */
+    .d1 {
+      background-image: url("dumb.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      filter: blur(3px);
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 0;
+    }
+
+    /* Foreground content container */
+    .d2 {
+      position: relative;
+      z-index: 1;
+      max-width: 800px;
+      margin: 60px auto;
+      background-color: rgba(255, 255, 255, 0.56); /* Light overlay for contrast */
+      color: #333;
+      border-radius: 12px;
+      padding: 40px 30px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      font-style: italic;
+      font-weight: 600;
+      font-size: 28px;
+      margin-bottom: 30px;
+      text-align: center;
+      color: #2c2c2c;
+    }
+
+    ul {
+      padding-left: 20px;
+      line-height: 1.7;
+      margin-bottom: 30px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .p1 {
+      font-style: italic;
+      font-weight: 600;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .p2 {
+      color: #008B8B; /* darker aqua for readability */
+      font-style: italic;
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    @media screen and (max-width: 600px) {
+      .d2 {
+        margin: 20px;
+        padding: 25px 20px;
+      }
+
+      h1 {
+        font-size: 22px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="d1"></div>
+  <div class="d2">
+    <h1>Workout Program Features</h1>
+    <ul>
+      <li>Work out with research-backed programs designed by Certified Personal Trainers (CPTs).</li>
+      <li>Follow expertly-curated combinations of workouts from our free video library provided after membership.</li>
+      <li>Take the guesswork out of planning routines and picking workouts.</li>
+      <li>Focus your exercise time with proper structure for more effective results.</li>
+      <li>Learn to modify individual exercises to accommodate virtually any fitness level.</li>
+      <li>Improve overall health and functional fitness.</li>
+      <li>Schedule and track progress via the Community Calendar.</li>
+      <li>Review each day's objectives and workout details.</li>
+      <li>Chat with our trained professionals.</li>
+      <li>Get additional tips and information with a detailed program and nutrition guide.</li>
+    </ul>
+    <p class="p1">Membership Perks:</p>
+    <p class="p2">
+      All workout programs, including new releases, are included with an active FitHub Premium membership.<br>
+      They can also be customized by swapping workouts.
+    </p>
+  </div>
+</body>
+</html>

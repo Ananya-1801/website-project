@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Healthy Recipes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Quicksand', sans-serif;
+      overflow: hidden; /* prevents scrollbars in frames */
+    }
+
+    body {
+      background: url("food.jpg") no-repeat center center;
+      background-size: cover;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-color: rgba(255, 255, 255, 0.5); /* light overlay for readability */
+      z-index: 0;
+    }
+
+    .d1 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 80%;
+      max-width: 800px;
+      padding: 25px 30px;
+      background-color: rgba(255, 255, 255, 0.85);
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      color: #444;
+      text-align: center;
+      z-index: 1;
+      overflow-y: auto; /* allows inner scrolling if text overflows */
+      max-height: 90%; /* ensures it fits in frame */
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+      font-weight: 600;
+      color: #2f5d34;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      font-size: 15px;
+      line-height: 1.8;
+      margin-bottom: 15px;
+    }
+
+    li::before {
+      content: "🥗 ";
+    }
+
+    em {
+      color: #5c8d3c;
+      font-style: normal;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay"></div>
+  <div class="d1">
+    <h1>Healthy Recipes, Made Simple</h1>
+
+    <p>Whether you're going low-carb, vegan, or gluten-free — we’ve got something fresh for you. These nourishing recipes are made for all kinds of eaters, from first-timers to foodies.</p>
+
+    <p><i>Want access to even more? Members get personalized menus and exclusive dishes. Just grab your card 😉</i></p>
+
+    <p><b>Try these at home:</b></p>
+    <ul>
+      <li>Veggie Hummus Sandwich <em>(low fat, high protein)</em></li>
+      <li>Beet Salad <em>(iron-rich)</em></li>
+      <li>Air-Fried Orange Chicken <em>(light yet zesty)</em></li>
+      <li>Vegan Pizza with Goat Cheese <em>(crave-worthy)</em></li>
+      <li>Broccoli Soup <em>(protein + fiber)</em></li>
+      <li>Chickpea Soup with Cracked Pepper</li>
+    </ul>
+
+    <p><b>Feeling fancy?</b> Treat yourself to:</p>
+    <ul>
+      <li>Cilantro Lime Shrimp Wraps</li>
+      <li>Keto Mac and Cheese</li>
+      <li>Chicken Tostadas</li>
+      <li>Stuffed Acorn Squash</li>
+      <li>Rainbow Roll</li>
+    </ul>
+  </div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<html>
+<head>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+    <style>
+        /* Apply base font to the whole page */
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .hero-image {
+            background-image: url("leftpic.jpg");
+            background-color: #cccccc;
+            height: 100vh; /* Full viewport height */
+            width: 100%;    /* Full width */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover; /* Ensures image covers the entire area */
+            position: relative;
+        }
+
+        .hero-text {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            font-size: 32px;
+            font-weight: 600;
+        }
+
+        a[href] {
+            font-weight: 500;
+            color: #FFDEAD;
+            font-size: 22px;
+            font-style: normal;
+            font-family: 'Inter', sans-serif;
+            text-decoration: none;
+        }
+
+        a[href]:hover {
+            color: #FFA500;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero-image">
+        <div class="hero-text">
+            <a href="Home.html" target="main">Home</a><br><br>
+            <a href="about.html" target="main">About Us</a><br><br>
+            <a href="health.html" target="main">Nutritional Guide</a><br><br>
+            <a href="workout.html" target="main">Workout Regime</a><br><br>
+            <a href="feedback1.html" target="main">Feedback</a>
+        </div>
+    </div>
+</body>
+</html>
