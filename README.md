@@ -1,6 +1,6 @@
 # Website Project
 
-This is a simple static website built using **HTML**, **CSS**, and a bit of **JavaScript**. It demonstrates a basic webpage layout including a homepage, about section, contact form, and responsive design elements.
+This is a simple static website built using **HTML**, **CSS**, and a bit of **JavaScript**. It demonstrates a basic webpage layout including a homepage, about section, contact form, and responsive design elements ( ONLY FRONT-END DEVELOPMENT ).
 
 ---
 
