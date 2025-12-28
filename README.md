@@ -29,6 +29,16 @@ Though some initial development and design work happened outside GitHub, the ent
 ✔ Static file serving (no backend)
 
 ---
+## Demo
+
+<img width="1920" height="1200" alt="Screenshot 2025-12-28 121913" src="https://github.com/user-attachments/assets/a56eb909-cd20-42b3-bfa3-4863fead7070" />
+
+
+<img width="1920" height="1200" alt="Screenshot 2025-12-28 121941" src="https://github.com/user-attachments/assets/f9ba595a-5ae4-4635-8480-520225a4a078" />
+
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/91d25585-760c-4d0d-ba22-828522b1eaa6" />
+
 
 ## 📂 File Structure
 
@@ -68,26 +78,23 @@ To view and modify this project locally:
    ```bash
    git clone https://github.com/Ananya-1801/website-project.git
 
+2. Open the website
+   
+   * Open index.html in your browser
+   * No build tools or server required
 
-Open the website
-
-Open index.html in your browser
-
-No build tools or server required
-
-My contributions reflect practical front-end competency and version-control collaboration skills.
 
 🧠 What You Can Learn
 
 This project demonstrates:
 
-HTML semantics and structural organization
+* HTML semantics and structural organization
 
-Styling with CSS
+* Styling with CSS
 
-JavaScript enhancements for UI behavior
+* JavaScript enhancements for UI behavior
 
-GitHub repository readiness for future collaboration
+* GitHub repository readiness for future collaboration
 
 📩 Feedback / Contact
 
@@ -102,11 +109,11 @@ Feel free to open an issue or reach out to me at:
 
 👥 Contributing
 
-Contributions are welcome! You can:
+* Contributions are welcome! You can:
 
-Open issues for bugs or feature requests.
+* Open issues for bugs or feature requests.
 
-Submit pull requests to improve workflows or documentation.
+* Submit pull requests to improve workflows or documentation.
 
 
 
